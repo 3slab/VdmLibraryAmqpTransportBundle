@@ -1,0 +1,30 @@
+{
+    "name": "3slab/vdm-library-amqp-transport-bundle",
+    "description": "Vdm AMQP Transport",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jonathan Bouzekri",
+            "email": "jonathan.bouzekri@suez.com"
+        },
+        {
+            "name": "Julian Marié",
+            "email": "julian.marie@free.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vdm\\Bundle\\LibraryAmqpTransportBundle\\": ""
+        }
+    },
+    "require": {
+        "3slab/vdm-library-bundle": "^2.0@beta"
+    },
+    "require-dev": {
+        "ext-xml": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "phpunit/phpunit": "^9"
+    }
+}
